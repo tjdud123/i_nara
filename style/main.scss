@@ -1,0 +1,70 @@
+$font-jua:'Jua', sans-serif;
+/* sass 처음 실행시 깃배쉬 실행해서 
+Administrator@USER-267TFHN2H7 MINGW64 /e/윤서영/WEB/cloncoding/10_I_NARA
+$ cd styles
+bash: cd: styles: No such file or directory
+
+Administrator@USER-267TFHN2H7 MINGW64 /e/윤서영/WEB/cloncoding/10_I_NARA
+$ cd style
+
+Administrator@USER-267TFHN2H7 MINGW64 /e/윤서영/WEB/cloncoding/10_I_NARA/style
+$ sass main.scss main.css*/
+
+header {
+    height: 100px;
+    background: linear-gradient(0deg, rgba(255,255,255,0.5), transparent);
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%; padding:0 15px;
+    position:fixed; top:0; left:0; z-index:999;
+    align-items: center;
+    h1{width:150px;
+        a{img{width:100%}}}
+    .right{display: flex; flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        .app{font-family: $font-jua;
+            border: 2px solid #fff; padding: 15px 25px; font-weight: 700;
+            color:#fff ; border-radius: 20px; 
+        margin-right: 20px;}
+        .all_nav{
+            span 
+                {display: block;
+                width:30px; height: 5px;
+                border-radius: 15px;
+                background: #fff
+                }
+            span:nth-child(1) {
+                
+            }
+            span:nth-child(2) {margin:5px 0;}
+            span:nth-child(3) {}
+        }
+        }
+}
+main {
+    .first_banner {position: relative;
+        .contents_first_top {position: absolute; top:500px; left:700px; text-align: center;
+        }
+            h2 {font-family: $font-jua;
+                font-size: 3rem;
+                color:#fff;
+                padding-bottom: 30px;
+                line-height: 1.5;
+            }
+            p {font-family: $font-jua;
+                font: size 1.5rem;
+                color:#fff;
+            }
+            a {
+                p {
+                }
+            }
+        }
+        p{
+        }
+        video {
+        }
+    }
+
